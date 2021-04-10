@@ -1,0 +1,39 @@
+.header{
+	display: flex;
+	align-items: center;
+	background-color: #D5D8DC;
+	padding: 5px, 0px;
+}
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+#menu{
+	font-size: 25px;
+	list-style-type: none;
+	padding-right: 5px;
+}
+#menu > a{
+	color: #34495E  ;
+	text-decoration: none;
+}
+body{
+	background: url(images/background.png); 
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+textarea{
+	width: 300px;
+	height: 200px;
+}
+input{
+	width: 200px;
+	height: 18px;
+}
+iframe{
+	padding: 15px;	
+}
